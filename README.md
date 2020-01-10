@@ -85,9 +85,9 @@ The configuration is a customized example pulled from the main [Cloud Foundry ng
  
    COSURL: <cloudObjectStorageContainer> #i.e. mycontainer.s3.us.cloud-object-storage.appdomain.cloud
    APPURL: <appURL> #i.e. test.apps.internal:8080, APPURL is the internal route setup for CF Node.js app from Step 5
-   
-   #Additional environment variables can be added as needed for your application as long as they are called in the nginx.conf file.
    ```
+   
+   Additional environment variables can be added as needed for your application as long as they are called in the nginx.conf file.
 
 9. Setup a custom domain
 
