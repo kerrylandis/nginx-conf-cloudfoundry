@@ -1,5 +1,5 @@
 # nginx proxy config for Cloud Foundry on IBM Cloud
-nginx proxy for Cloud Foundry.  Will proxy to a different CF running a nodejs app. This repo makes use of the `nginx.conf` file to utilize the ngninx buildpack in your app.
+The instructions below help you setup an nginx proxy to a Cloud Foundry running a Node.js app. This repo makes use of the `nginx.conf` file to utilize the ngninx buildpack in your app.
 
 The configuration is a customized example pulled from the main [Cloud Foundry nginx buildpack](https://github.com/cloudfoundry/nginx-buildpack) Official buildpack documentation can be found at [here](https://docs.cloudfoundry.org/buildpacks/nginx/index.html).
 
