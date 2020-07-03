@@ -42,7 +42,7 @@ The configuration is a customized example pulled from the main [Cloud Foundry ng
    
    Inside our directory, we can push the app to CF:
    ```
-   ibmcloud cf push <appname> -b nginx_buildpack
+   ibmcloud cf push <appname> -b https://github.com/cloudfoundry/nginx-buildpack.git
    # Use App Name from Step 1
    ```
    
